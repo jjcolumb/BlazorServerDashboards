@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="DomainObject1" ComponentName="sqlDataSource1">
+      <Connection Name="ConnectionString" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="DomainObject1">
+        <Tables>
+          <Table Name="DomainObject1" />
+        </Tables>
+        <Columns>
+          <Column Table="DomainObject1" Name="Name" />
+          <Column Table="DomainObject1" Name="Address" />
+          <Column Table="DomainObject1" Name="Active" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Pie ComponentName="pieDashboardItem1" Name="Pies 1" DataSource="sqlDataSource1" DataMember="DomainObject1">
+      <DataItems>
+        <Measure DataMember="Name" SummaryType="Count" DefaultId="DataItem0" />
+        <Dimension DataMember="Active" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pieDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

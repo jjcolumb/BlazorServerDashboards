@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="DomainObject1" ComponentName="sqlDataSource1">
+      <Connection Name="ConnectionString" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="DomainObject1">
+        <Tables>
+          <Table Name="DomainObject1" />
+        </Tables>
+        <Columns>
+          <Column Table="DomainObject1" Name="Oid" />
+          <Column Table="DomainObject1" Name="Name" />
+          <Column Table="DomainObject1" Name="Country" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+</Dashboard>

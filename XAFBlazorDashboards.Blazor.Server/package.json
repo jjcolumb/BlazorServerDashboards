@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "devexpress-dashboard": "~20.1.7",
+    "@devexpress/analytics-core": "~20.1.7",
+    "devextreme": "~20.1.7",
+    "jquery-ui-dist": "1.12.1"
+  }
+}

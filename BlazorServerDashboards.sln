@@ -5,16 +5,43 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerDashboards", "BlazorServerDashboards\BlazorServerDashboards.csproj", "{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAFBlazorDashboards.Module", "XAFBlazorDashboards.Module\XAFBlazorDashboards.Module.csproj", "{B1697EEF-4056-4306-8CF7-29EA54D509A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAFBlazorDashboards.Module.Blazor", "XAFBlazorDashboards.Module.Blazor\XAFBlazorDashboards.Module.Blazor.csproj", "{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAFBlazorDashboards.Blazor.Server", "XAFBlazorDashboards.Blazor.Server\XAFBlazorDashboards.Blazor.Server.csproj", "{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}.EasyTest|Any CPU.Build.0 = Release|Any CPU
 		{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B555F9-57F7-406E-BC3A-35AE0C2FF2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1697EEF-4056-4306-8CF7-29EA54D509A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1697EEF-4056-4306-8CF7-29EA54D509A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1697EEF-4056-4306-8CF7-29EA54D509A5}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{B1697EEF-4056-4306-8CF7-29EA54D509A5}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{B1697EEF-4056-4306-8CF7-29EA54D509A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1697EEF-4056-4306-8CF7-29EA54D509A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEB7016-C7F9-4DC2-9D2D-052632B27BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9E3F04-89EA-4EA8-8FA7-4549605380B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
